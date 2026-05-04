@@ -15,3 +15,12 @@ class Mahasiswa {
         static void setNim(int pnim){
             nim = pnim;
         };
+
+        static int getnim(){
+            return nim;
+        }
+
+        Mahasiswa(string pnama) :nama(pnama){
+            setID();
+        };
+};
